@@ -4,7 +4,7 @@
 using namespace std;
 string infixToPostfix(string s)
 {
-	int i = 0;
+	  int i = 0;
 	StackVector<char> stack(s.length()+1);
 	
 	string str;
